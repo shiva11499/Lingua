@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.application.signs.MainActivity">
+
+    <ImageButton
+        android:id="@+id/lo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxHeight="400dp"
+        android:maxWidth="400dp"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lingua" />
+
+</RelativeLayout>

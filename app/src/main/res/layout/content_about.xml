@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b3"
+    tools:context="com.example.application.signs.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="'Lingua' is a Speech to text android application that links the text spoken in the app and the hardware.
+The application consists of two different types of systems
+   ▪American Sign Language
+   ▪Indian Sign Language
+The user has to choose between one of the two given options. Then according to the option, an activity opens that allows the user to speak and send data.
+The data in the application is sent by connecting via a bluetooth module which connects to the Arduino Development Board which directly links it with the robotic hand."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:text="NEXT"
+        android:background="#FFEF7B21"
+        />
+</LinearLayout>

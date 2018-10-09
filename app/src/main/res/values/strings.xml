@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lingua</string>
+    <string name="title_activity_menu">yes</string>
+    <string name="title_activity_menuisl">Menuisl</string>
+    <string name="title_activity_front_page">Lingua</string>
+    <string name="title_activity_about">About</string>
+</resources>

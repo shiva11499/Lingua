@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="1000dp"
+        android:maxWidth="1000dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/asl1" />
+
+
+    <TextView
+        android:id="@+id/voiceInputasl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:textSize="30dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/btnSpeakContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageButton
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:padding="16dp"
+                android:layout_marginLeft="120dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/speech" />
+
+            <Button
+                android:id="@+id/islshift"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:background="@android:color/white"
+                android:text="ISL"
+                android:textSize="20dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Press the button to speak" />
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:maxHeight="1000dp"-->
+            <!--android:maxWidth="1000dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--app:srcCompat="@drawable/asl1" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>
