@@ -38,15 +38,16 @@ public class MainActivity extends AppCompatActivity {
     BluetoothDevice mDevice=null;
     private static final String TAG = "bluetooth1";
     OutputStream outStream;
-
+    TextView asl;
+    TextView isl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView asl = (TextView) findViewById(R.id.asl);
-        TextView isl = (TextView) findViewById(R.id.isl);
+        asl = (TextView) findViewById(R.id.asl);
+        isl = (TextView) findViewById(R.id.isl);
 
         asl.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
