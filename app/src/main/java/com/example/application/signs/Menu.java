@@ -65,10 +65,8 @@ public class Menu extends AppCompatActivity {
                     mBluetoothAdapter.disable();
                 }
 
-
                 Intent numberIntent = new Intent(Menu.this, Menuisl.class);
                 startActivity(numberIntent);
-
             }
         });
 
@@ -184,11 +182,9 @@ public class Menu extends AppCompatActivity {
 
                     Log.e("Device", mDevice + "");
                     Log.e("Socket", btSocket + "");
-
                 }
                 break;
             }
-
         }
     }
 }
