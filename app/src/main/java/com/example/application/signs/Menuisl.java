@@ -65,10 +65,8 @@ public class Menuisl extends AppCompatActivity {
                     mBluetoothAdapter.disable();
                 }
 
-
                 Intent numberIntent = new Intent(Menuisl.this, Menu.class);
                 startActivity(numberIntent);
-
             }
         });
 
@@ -82,15 +80,12 @@ public class Menuisl extends AppCompatActivity {
             startActivityForResult(enableBtIntent, 1);
         }
 
-
-
         mSpeakBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startVoiceInput();
             }
         });
-
     }
 
     private void startVoiceInput() {
@@ -101,10 +96,8 @@ public class Menuisl extends AppCompatActivity {
         try {
             startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
         } catch (ActivityNotFoundException a) {
-
         }
     }
-
 
     private BluetoothSocket createBluetoothSocket(BluetoothDevice device) throws IOException {
         if(Build.VERSION.SDK_INT >= 10){
@@ -187,8 +180,6 @@ public class Menuisl extends AppCompatActivity {
                 }
                 break;
             }
-
         }
     }
-
 }
