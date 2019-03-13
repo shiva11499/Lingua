@@ -23,11 +23,10 @@ public class FrontPage extends AppCompatActivity {
         imageView= (ImageButton)findViewById(R.id.lo);
         animation = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.alpha);
 
-        imageView.setAnimation(animation);
-        animation.setAnimationListener(new Animation.AnimationListener() {
+            imageView.setAnimation(animation);
+            animation.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-
             }
 
             @Override
@@ -41,6 +40,5 @@ public class FrontPage extends AppCompatActivity {
 
             }
         });
-
     }
 }
