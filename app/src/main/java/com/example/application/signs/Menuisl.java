@@ -14,7 +14,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.io.IOException;
 import java.io.OutputStream;
 import java.lang.reflect.Method;
@@ -36,7 +35,6 @@ public class Menuisl extends AppCompatActivity {
     BluetoothDevice mDevice = null;
     private static final String TAG = "bluetooth1";
     OutputStream outStream;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
