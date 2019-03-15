@@ -174,7 +174,6 @@ public class Menuisl extends AppCompatActivity {
 
                     Log.e("Device",mDevice+"");
                     Log.e("Socket",btSocket+"");
-
                 }
                 break;
             }
